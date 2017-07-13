@@ -17,6 +17,6 @@ puts "The time at this moment is #{date}"
 # logger = Logger.new(STDOUT)
 # log_file = File.open("/Users/rubenalberto/Desktop/my-output.log", "a")
 # logger = Logger.new(TeeRb::IODelegate.new(log_file, STDOUT))
-logger = Logger.new(log_file)
+#logger = Logger.new(log_file)
 
 
